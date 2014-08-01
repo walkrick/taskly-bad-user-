@@ -18,10 +18,10 @@ Note: email/password combinations for existing users populated by `rake db:seed`
 ```
 As a user
 When I log in I should see a "new task list"
-When I click that link, I should see a description field
-When I fill in that description and click "Create Task List"
+When I click that link, I should see a title field
+When I fill in that title and click "Create Task List"
 Then I see a flash message that reads "Task List was created successfully!"
-And I should see the task list appear
+And I should see the task list title appear
 ```
 
 **User must fill out a title for the task list**
