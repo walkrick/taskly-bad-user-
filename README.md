@@ -13,6 +13,13 @@ You can run specs with:
 Note: email/password combinations for existing users populated by `rake db:seed` can be found in the db/seeds.rb file.
 
 ## Stories
+**Anonymous user can view about page**
+```
+As an anonymous user
+When I'm on the login page
+And I click on "About"
+Then I see the about page
+```
 
 **User can add a task list**
 ```
