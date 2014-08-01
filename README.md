@@ -14,6 +14,38 @@ Note: email/password combinations for existing users populated by `rake db:seed`
 
 ## Stories
 
+**User can add a task list**
+```
+As a user
+When I log in I should see a "new task list"
+When I click that link, I should see a description field
+When I fill in that description and click "Create Task List"
+Then I see a flash message that reads "Task List was created successfully!"
+And I should see the task list appear
+```
+
+**User must fill out a title for the task list**
+```
+As a user
+Given I'm logged in
+When I am adding a task list
+And I don't fill in the title field
+And I press "Create Task List"
+Then I should see a message that reads "Your task list could not be created" (in maroon)
+```
+
+**User can edit a task list**
+```
+As a user
+Given I'm logged in
+When I click on "Edit" next to a task list
+Then I see a title field
+When I fill out a different Title
+And click "Update Task List"
+Then I see a message that reads "Your taks list was successfully updated!"
+And I see the task list's new title
+```
+
 **User can add a task**
 ```
 As a user
@@ -34,6 +66,15 @@ Then I should see a message that reads "Your task could not be created" (in maro
 And the label for the description field should be maroon.
 ```
 
+**User can delete a task**
+```
+As a user
+Given that I'm logged in
+When I click the "Delete" link next to a task
+Then I see a flash message that reads "Task was deleted successfully!"
+And I should no longer see that task
+```
+
 **Users can complete tasks**
 ```
 As a user
@@ -47,6 +88,16 @@ NOTE: we don't want to delete tasks from the database - just hide completed task
 As a user
 When I create multiple tasks in a list
 Then I should see them in chronological order
+```
+
+**User can delete a task list**
+```
+As a user
+Given that I'm logged in
+When I click the "Delete" link next to a task list
+Then I see a flash message that reads "Task List was deleted successfully!"
+And I should no longer see that task list
+And all related tasks are deleted
 ```
 
 **Task lists with empty tasks should show a friendly message**
