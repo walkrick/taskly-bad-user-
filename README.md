@@ -75,6 +75,14 @@ Then I see a flash message that reads "Task was deleted successfully!"
 And I should no longer see that task
 ```
 
+**Users can view a single task list's tasks**
+```
+As a user
+Given that I'm logged in
+When I click on the title of a task list
+Then I only see the tasks for that task list
+```
+
 **Users can complete tasks**
 ```
 As a user
