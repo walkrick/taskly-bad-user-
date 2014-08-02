@@ -131,6 +131,7 @@ Then I see all completed tasks for that task list
 ```
 
 <img src="project/10-show-completed-tasks.png">
+<img src="project/10-index-with-completed.png">
 
 
 **Tasks must appear in order of their due date**
