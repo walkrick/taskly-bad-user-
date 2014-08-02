@@ -73,6 +73,7 @@ And I should see a flash message that reads "Task was created successfully!"
 Each task should have the due date represented in relative time
 ```
 
+<img src="project/05-index.png">
 <img src="project/05-new-task.png">
 <img src="project/05-new-task-flash.png">
 
