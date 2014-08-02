@@ -27,7 +27,7 @@ Then I see the about page
 **User can add a task list**
 ```
 As a user
-When I log in I should see a "new task list"
+When I log in I should see a "Add Task List"
 When I click that link, I should see a name field
 When I fill in the name and click "Create Task List"
 Then I see a flash message that reads "Task List was created successfully!"
