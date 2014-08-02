@@ -2,7 +2,7 @@
   <controls>
     <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="48" y="32" w="960" h="711" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>About%20Taskly%0Ahttp%3A//task.ly</text>
+        <text>About%20Taskly%0Ahttp%3A//task.ly/about</text>
       </controlProperties>
     </control>
     <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="475" y="181" w="-1" h="-1" measuredW="107" measuredH="43" zOrder="1" locked="false" isInGroup="-1">
