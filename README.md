@@ -122,6 +122,14 @@ NOTE: we don't want to delete tasks from the database - just hide completed task
 
 <img src="project/09-index-with-complete.png">
 
+**Users can view completed tasks**
+```
+As a user
+Given I have completed task
+When I click the link "Completed" next to a task list
+Then I see all completed tasks for that task list
+```
+
 **Tasks must appear in order of their due date**
 ```
 As a user
