@@ -130,6 +130,9 @@ When I click the link "Completed" next to a task list
 Then I see all completed tasks for that task list
 ```
 
+<img src="project/10-show-completed-tasks.png">
+
+
 **Tasks must appear in order of their due date**
 ```
 As a user
