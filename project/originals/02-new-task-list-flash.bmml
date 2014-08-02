@@ -63,5 +63,10 @@
         <text>Task%20List%20was%20created%20successfully%21</text>
       </controlProperties>
     </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Link" x="273" y="127" w="-1" h="-1" measuredW="93" measuredH="19" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>+%20Add%20Task%20List</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
