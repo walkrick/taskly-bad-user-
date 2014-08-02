@@ -34,6 +34,7 @@ Then I see a flash message that reads "Task List was created successfully!"
 And I should see the task list title appear
 ```
 
+<img src="project/02-index.png">
 <img src="project/02-new-task-list.png">
 <img src="project/02-new-task-list-flash.png">
 

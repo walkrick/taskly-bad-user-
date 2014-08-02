@@ -51,41 +51,17 @@
         <text>Do%20some%20exercisms%20%2810%20days%29</text>
       </controlProperties>
     </control>
-    <control controlID="25" controlTypeID="com.balsamiq.mockups::Button" x="712" y="210" w="-1" h="-1" measuredW="78" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Button" x="729" y="211" w="-1" h="-1" measuredW="60" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Complete</text>
+        <text>Delete</text>
       </controlProperties>
     </control>
-    <control controlID="26" controlTypeID="com.balsamiq.mockups::Button" x="712" y="256" w="-1" h="-1" measuredW="78" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Button" x="729" y="257" w="-1" h="-1" measuredW="60" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Complete</text>
+        <text>Delete</text>
       </controlProperties>
     </control>
-    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="172" y="319" w="-1" h="-1" measuredW="147" measuredH="26" zOrder="11" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>18</size>
-        <text>Household%20Chores</text>
-      </controlProperties>
-    </control>
-    <control controlID="28" controlTypeID="com.balsamiq.mockups::Link" x="729" y="323" w="-1" h="-1" measuredW="67" measuredH="19" zOrder="12" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>+%20Add%20Task</text>
-      </controlProperties>
-    </control>
-    <control controlID="35" controlTypeID="com.balsamiq.mockups::Canvas" x="172" y="349" w="624" h="40" measuredW="100" measuredH="70" zOrder="13" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>14540253</borderColor>
-        <color>15658734</color>
-      </controlProperties>
-    </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="425" y="359" w="-1" h="-1" measuredW="119" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
-      <controlProperties>
-        <align>center</align>
-        <italic>true</italic>
-        <text>Nothing%20here%20to%20see%21</text>
-      </controlProperties>
-    </control>
-    <control controlID="37" controlTypeID="com.balsamiq.mockups::Link" x="273" y="127" w="-1" h="-1" measuredW="93" measuredH="19" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Link" x="273" y="127" w="-1" h="-1" measuredW="93" measuredH="19" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <text>+%20Add%20Task%20List</text>
       </controlProperties>
