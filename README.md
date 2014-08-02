@@ -54,14 +54,16 @@ Then I should see a message that reads "Your task list could not be created" (in
 As a user
 Given I'm logged in
 When I click on "Edit" next to a task list
-Then I see a title field
+Then I see a name field with the current name
 When I fill out a different Title
 And click "Update Task List"
-Then I see a message that reads "Your taks list was successfully updated!"
+Then I see a message that reads "Your task list was successfully updated!"
 And I see the task list's new title
 ```
 
+<img src="project/04-edit-task-list-index.png">
 <img src="project/04-edit-task-list.png">
+<img src="project/04-edit-task-list-flash.png">
 
 **User can add a task**
 ```
