@@ -21,6 +21,9 @@ And I click on "About"
 Then I see the about page
 ```
 
+<img src="project/01-login.png">
+<img src="project/01-about.png">
+
 **User can add a task list**
 ```
 As a user
@@ -144,32 +147,6 @@ As a non-logged in user
 When I visit the new task path for any task list
 Then I should be redirected to the login page
 ```
-
-## Wireframes
-
-Task lists page:
-
-<img src="project/01-index.png">
-
-New task page:
-
-<img src="project/02-new.png">
-
-New task page w/ errors:
-
-<img src="project/03-new-with-errors.png">
-
-Flash message:
-
-<img src="project/04-flash-message.png">
-
-New form with user:
-
-<img src="project/05-new-with-user.png">
-
-Index page with filter:
-
-<img src="project/06-index-with-assignees.png">
 
 ## References
 
