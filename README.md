@@ -46,6 +46,7 @@ And I don't fill in the title field
 And I press "Create Task List"
 Then I should see a message that reads "Your task list could not be created" (in maroon)
 ```
+<img src="project/03-new-task-list-error.png">
 
 **User can edit a task list**
 ```
