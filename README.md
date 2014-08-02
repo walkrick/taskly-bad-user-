@@ -110,6 +110,8 @@ When I click on the title of a task list
 Then I only see the tasks for that task list
 ```
 
+<img src="project/08-show-task-list.png">
+
 **Users can complete tasks**
 ```
 As a user
