@@ -56,5 +56,10 @@
         <text>+%20Add%20Task%20List</text>
       </controlProperties>
     </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Link" x="639" y="165" w="-1" h="-1" measuredW="24" measuredH="19" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Edit</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
