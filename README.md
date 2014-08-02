@@ -60,6 +60,8 @@ Then I see a message that reads "Your taks list was successfully updated!"
 And I see the task list's new title
 ```
 
+<img src="project/04-edit-task-list.png">
+
 **User can add a task**
 ```
 As a user
