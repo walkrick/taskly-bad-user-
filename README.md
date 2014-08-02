@@ -120,6 +120,8 @@ When I press that button, the task should be removed from the page
 NOTE: we don't want to delete tasks from the database - just hide completed tasks from users
 ```
 
+<img src="project/09-index-with-complete.png">
+
 **Tasks must appear in order of their due date**
 ```
 As a user
