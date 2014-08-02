@@ -28,11 +28,14 @@ Then I see the about page
 ```
 As a user
 When I log in I should see a "new task list"
-When I click that link, I should see a title field
-When I fill in that title and click "Create Task List"
+When I click that link, I should see a name field
+When I fill in the name and click "Create Task List"
 Then I see a flash message that reads "Task List was created successfully!"
 And I should see the task list title appear
 ```
+
+<img src="project/02-new-task-list.png">
+<img src="project/02-new-task-list-flash.png">
 
 **User must fill out a title for the task list**
 ```
