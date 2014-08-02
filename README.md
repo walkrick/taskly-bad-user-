@@ -85,6 +85,8 @@ Then I should see a message that reads "Your task could not be created" (in maro
 And the label for the description field should be maroon.
 ```
 
+<img src="project/06-new-task-error.png">
+
 **User can delete a task**
 ```
 As a user
