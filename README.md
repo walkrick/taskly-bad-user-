@@ -100,6 +100,8 @@ Then I see a flash message that reads "Task was deleted successfully!"
 And I should no longer see that task
 ```
 
+<img src="project/07-index-with-delete.png">
+
 **Users can view a single task list's tasks**
 ```
 As a user
