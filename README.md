@@ -194,6 +194,7 @@ Then I should be redirected to the login page
 ├── Gemfile.lock
 ├── README.md
 ├── Rakefile
+├── config.ru
 ├── app
 │   ├── assets
 │   │   ├── images
@@ -219,10 +220,6 @@ Then I should be redirected to the login page
 │       │   └── new.html.erb
 │       └── task_lists
 │           └── index.html.erb
-├── bin
-│   ├── bundle
-│   ├── rails
-│   └── rake
 ├── config
 │   ├── application.rb
 │   ├── boot.rb
@@ -244,7 +241,6 @@ Then I should be redirected to the login page
 │   │   └── en.yml
 │   ├── routes.rb
 │   └── secrets.yml
-├── config.ru
 ├── db
 │   ├── migrate
 │   │   ├── 20140701062112_create_users.rb
