@@ -170,7 +170,7 @@ I can optionally add a user to the task
 And when a user is assigned a task, I can see that user on the index page
 ```
 
-<img src="project/14-new-task-with-assignment.png">
+<img src="project/14-new-task-with-user.png">
 <img src="project/14-index-with-assignment.png">
 
 **Non-logged in users should not be able to see the new task page, or be able to create a task**
