@@ -151,12 +151,16 @@ And I should no longer see that task list
 And all related tasks are deleted
 ```
 
+<img src="project/12-index-with-delete.png">
+
 **Task lists with empty tasks should show a friendly message**
 ```
 As a user
 When I see a task list with no tasks
 Then I should see a message that reads "Nothing here to see!"
 ```
+
+<img src="project/13-index-with-empty-task-list.png">
 
 **Users should be able to assign tasks to users**
 ```
@@ -166,13 +170,8 @@ I can optionally add a user to the task
 And when a user is assigned a task, I can see that user on the index page
 ```
 
-**Users can filter tasks assigned to a particular user from the index page**
-```
-As a user
-When I go to the homepage
-And I select a user's name from a dropdown and click "filter"
-Then I should see only tasks that are assigned to that user
-```
+<img src="project/14-new-task-with-assignment.png">
+<img src="project/14-index-with-assignment.png">
 
 **Non-logged in users should not be able to see the new task page, or be able to create a task**
 ```
