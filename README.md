@@ -22,6 +22,12 @@ You can run specs with:
 
 Note: email/password combinations for existing users populated by `rake db:seed` can be found in the db/seeds.rb file.
 
+## References
+
+* [Flash](http://guides.rubyonrails.org/action_controller_overview.html#the-flash)
+* [Date Select](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-date_select)
+* [Validations in views](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views)
+
 ## Stories
 **Anonymous user can view about page**
 ```
@@ -190,92 +196,3 @@ When I visit the new task path for any task list
 Then I should be redirected to the login page
 ```
 
-## References
-
-* [Flash](http://guides.rubyonrails.org/action_controller_overview.html#the-flash)
-* [Date Select](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-date_select)
-* [Validations in views](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views)
-
-## Structure
-
-```
-.
-├── Gemfile
-├── Gemfile.lock
-├── README.md
-├── Rakefile
-├── config.ru
-├── app
-│   ├── assets
-│   │   ├── images
-│   │   ├── javascripts
-│   │   │   └── application.js
-│   │   └── stylesheets
-│   │       ├── application.scss
-│   │       └── normalize.scss
-│   ├── controllers
-│   │   ├── application_controller.rb
-│   │   ├── sessions_controller.rb
-│   │   └── task_lists_controller.rb
-│   ├── helpers
-│   │   └── application_helper.rb
-│   ├── mailers
-│   ├── models
-│   │   ├── task_list.rb
-│   │   └── user.rb
-│   └── views
-│       ├── layouts
-│       │   └── application.html.erb
-│       ├── sessions
-│       │   └── new.html.erb
-│       └── task_lists
-│           └── index.html.erb
-├── config
-│   ├── application.rb
-│   ├── boot.rb
-│   ├── database.yml
-│   ├── environment.rb
-│   ├── environments
-│   │   ├── development.rb
-│   │   ├── production.rb
-│   │   └── test.rb
-│   ├── initializers
-│   │   ├── backtrace_silencers.rb
-│   │   ├── cookies_serializer.rb
-│   │   ├── filter_parameter_logging.rb
-│   │   ├── inflections.rb
-│   │   ├── mime_types.rb
-│   │   ├── session_store.rb
-│   │   └── wrap_parameters.rb
-│   ├── locales
-│   │   └── en.yml
-│   ├── routes.rb
-│   └── secrets.yml
-├── db
-│   ├── migrate
-│   │   ├── 20140701062112_create_users.rb
-│   │   └── 20140711205921_create_task_lists.rb
-│   ├── schema.rb
-│   └── seeds.rb
-├── lib
-│   ├── assets
-│   └── tasks
-├── public
-│   ├── 404.html
-│   ├── 422.html
-│   ├── 500.html
-│   ├── favicon.ico
-│   └── robots.txt
-├── spec
-│   ├── features
-│   │   ├── auth_spec.rb
-│   │   └── task_lists_spec.rb
-│   ├── rails_helper.rb
-│   ├── spec_helper.rb
-│   └── support
-│       └── object_creation_methods.rb
-└── vendor
-    └── assets
-        ├── javascripts
-        └── stylesheets
-```
