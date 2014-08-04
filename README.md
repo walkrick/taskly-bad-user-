@@ -24,6 +24,11 @@ Note: email/password combinations for existing users populated by `rake db:seed`
 
 ## References
 
+* [Rails](http://guides.rubyonrails.org/index.html)
+* [Views](http://guides.rubyonrails.org/layouts_and_rendering.html)
+* [Controller](http://guides.rubyonrails.org/action_controller_overview.html)
+* [Model](http://guides.rubyonrails.org/active_record_basics.html)
+* [ActiveRecord Querying](http://guides.rubyonrails.org/active_record_querying.html)
 * [Flash](http://guides.rubyonrails.org/action_controller_overview.html#the-flash)
 * [Date Select](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-date_select)
 * [Validations in views](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views)
