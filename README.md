@@ -14,7 +14,7 @@ Naturally, we need this done by the end of the week; good luck!
 
 * `bundle`
 * `rake db:create db:migrate db:seed`
-* `rails s`
+* `rails server`
 
 You can run specs with:
 
