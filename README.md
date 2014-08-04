@@ -1,4 +1,14 @@
-# Rails Practice
+# Taskly
+
+Guess what time it is! It's time to implement another half-way terrible idea
+cooked up by your gSchool instructors. But trust them, this time it's going to
+be big!
+
+Meet Taskly, you're one stop shop for everything task related. By the time this
+app's to market, you'll even be able to assign tasks to other people!
+Revolutionary!
+
+Naturally, we need this done by the end of the week; good luck!
 
 ## Setup
 
