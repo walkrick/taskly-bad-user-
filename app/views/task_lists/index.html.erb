@@ -1,5 +1,7 @@
-<h1>My Lists<%= link_to "+ Add Task List", new_task_path %></h1>
+<h1>My Lists</h1>
+<div><%= link_to "+ Add a Task List","/task_lists/new" %></div>
 
+<p><%= flash[:notice] if flash[:notice] %></p>
 
 <% @task_lists.each do |task_list| %>
 
