@@ -2,19 +2,18 @@
 
 <%= form_for @task_lists do |f| %>
 
-  <% if @task_lists.errors.present? %>
+  <% if @task_lists.errors[:name].any? %>
     <div class="errors">
       <h1>There was an error</h1>
-      <ul class="error-list">
-        <% @task_lists.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
+      <% @task_lists.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
       </ul>
     </div>
   <% end %>
 
   <p>
-    <%= f.label :name, class: "form-label" %>
+    <%= f.label :name %>
     <%= f.text_field :name %>
   </p>
   <p>

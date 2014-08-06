@@ -20,8 +20,18 @@ class TaskListsController < ApplicationController
   end
 
   def edit
+    puts "here"
+    p params
     @task_lists = TaskList.find(params[:id])
+  end
+
+  def update
+    @task_lists = TaskList.find(params[:id])
+    @task_lists.name = params[:task_list][:name]
+    @task_lists.save
+    redirect_to "/"
   end
 
 
 end
+

@@ -16,6 +16,9 @@ Rails.application.routes.draw do
 
   get "/task_lists/:id/edit" => "task_lists#edit"
 
-  put "/task_lists/:id" => "task_lists#update"
+  put "/task_lists/:id" => "task_lists#update", as: :task_list
+
+  patch "/task_lists/:id" => "task_lists#update"
+
 
 end
