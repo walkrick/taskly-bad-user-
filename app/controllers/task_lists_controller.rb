@@ -19,5 +19,9 @@ class TaskListsController < ApplicationController
     end
   end
 
+  def edit
+    @task_lists = TaskList.find(params[:id])
+  end
+
 
 end
