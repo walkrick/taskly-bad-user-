@@ -5,7 +5,7 @@ class TaskListsController < ApplicationController
   end
 
   def new
-    @task_lists = TaskList.new
+    @task_list = TaskList.new
   end
 
   def create
@@ -29,6 +29,7 @@ class TaskListsController < ApplicationController
     @task_lists = TaskList.find(params[:id])
     @task_lists.name = params[:task_list][:name]
     @task_lists.save
+    flash[:notice] = "Task list was updated successfully!"
     redirect_to "/"
   end
 

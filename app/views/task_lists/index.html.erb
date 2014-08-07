@@ -6,7 +6,7 @@
 <% @task_lists.each do |task_list| %>
 
   <section class="task-list">
-    <h1><%= task_list.name %><p align="right"><%= link_to "Edit","/task_lists/#{task_list.id}/edit" %></p>
+    <h1><%= task_list.name %><p align="right"><%= link_to "Edit","/task_lists/#{task_list.id}/edit" %><br><%= link_to "+Add Task","/"%></p>
     </h1>
   </section>
 

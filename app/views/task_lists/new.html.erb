@@ -1,6 +1,6 @@
 <h1>Add a Task List</h1>
 
-<p><%= form_for @task_lists do |f| %>
+<p><%= form_for @task_list do |f| %>
   <% f.object.errors.messages.values.each do |error| %>
     <div class="errors">
       <%= error.first %>
