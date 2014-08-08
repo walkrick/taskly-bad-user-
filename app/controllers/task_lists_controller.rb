@@ -20,8 +20,8 @@ class TaskListsController < ApplicationController
   end
 
   def edit
-    puts "here"
-    p params
+    # puts "here"
+    # p params
     @task_lists = TaskList.find(params[:id])
   end
 
