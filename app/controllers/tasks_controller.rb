@@ -10,20 +10,32 @@ class TasksController < ApplicationController
   end
 
   def create
-    due_date= Date.new(params[:task]["date(1i)"].to_i,
-                       params[:task]["date(2i)"].to_i,
-                       params[:task]["date(3i)"].to_i)
 
-    @task = Task.new(description: params[:task][:description], date: due_date, task_list_id: params[:task_list_id])
-    @task.task = params[:tasks][:task]
+    @task = Task.new(allowed_parameters)
+    @task_list = TaskList.find(params[:task_list_id])
+    @task.task_list = @task_list
+
     if @task.save
       flash[:notice] = "Task was successfully created."
       redirect_to "/"
     else
-      @task_list = TaskList.find(params[:task_list_id])
       render :new
     end
   end
+
+  def destroy
+    p params
+    @task = Task.find(params[:id])
+    @task.destroy
+    redirect_to "/"
+  end
+
+
+  private
+  def allowed_parameters
+    params.require(:task).permit(:task, :due_date, :task_list_id)
+  end
+
 
 end
 

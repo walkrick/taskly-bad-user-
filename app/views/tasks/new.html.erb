@@ -2,8 +2,6 @@
 
 
 <%=form_for [@task_list, @task] do |f|%>
-
-
 <% f.object.errors.full_messages.each do |error| %>
   <div class="errors">
     <%= error %>
@@ -14,12 +12,12 @@
   <%= f.label :description %>
   <%= f.text_field :task %>
 </div>
-
+<h5>Due Date</h5>
 <div>
   <%= f.label :date %>
   <%= f.date_select :due_date %>
 </div>
-
+<p></p>
 <div>
   <%= f.submit "Create Task"  %>
 </div>

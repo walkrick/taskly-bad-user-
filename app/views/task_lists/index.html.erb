@@ -1,16 +1,25 @@
 <h1>My Lists</h1>
-<div><%= link_to "+ Add a Task List","/task_lists/new" %></div>
+<div><%= link_to "+ Add a Task List", "/task_lists/new" %></div>
 
 <p><%= flash[:notice] if flash[:notice] %></p>
-
 <% @task_lists.each do |task_list| %>
 
   <section class="task-list">
-    <h1><%= task_list.name %><p align="right"><%= link_to "Edit","/task_lists/#{task_list.id}/edit" %><br><%= link_to "+Add Task",new_task_list_task_path(task_list.id)%></p>
-    </h1>
-    <ul>
-        "task"
-    </ul>
-  </section>
+    <h1><%= task_list.name %>
 
+    <p align= "right" > <%= link_to "Edit", "/task_lists/#{task_list.id}/edit" %>
+    <br><%= link_to "+Add Task", new_task_list_task_path(task_list.id) %></p>
+    </h1>
+
+    <p>
+      <% task_list.tasks.each do |task| %>
+        <%= task.task %> (<%= distance_of_time_in_words(task.due_date, Time.now) %>)
+
+        <%= link_to "Delete", "/task_lists/#{ task_list.id }/tasks/#{ task.id }",:method => :delete %>
+
+        </p>
+
+        </section>
+
+      <% end %>
 <% end %>
