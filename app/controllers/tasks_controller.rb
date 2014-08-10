@@ -24,7 +24,6 @@ class TasksController < ApplicationController
   end
 
   def destroy
-    p params
     @task = Task.find(params[:id])
     @task.destroy
     redirect_to "/"
